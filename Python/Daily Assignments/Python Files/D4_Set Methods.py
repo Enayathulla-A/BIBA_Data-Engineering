@@ -1,0 +1,16 @@
+a={1,3,4,5,10,45}
+print(a)
+#add()
+a.add(100)
+print(a)
+#copy()
+b=a.copy()
+print(b)
+#differance()
+a.add(86)
+print(a.difference(b))
+#issubset()
+print(b.issubset(a))
+#remove
+a.remove(45)
+print(a)
